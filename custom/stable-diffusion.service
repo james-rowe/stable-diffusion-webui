@@ -1,8 +1,0 @@
-[Unit]
-Description=Stable-Diffusion Script
-
-[Service]
-ExecStart=/workspace/stable-diffusion-webui/webui.sh
-
-[Install]
-WantedBy=multi-user.target
