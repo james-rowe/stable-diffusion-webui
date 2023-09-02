@@ -11,6 +11,8 @@ cd /workspace/
 python3 -m venv chatfriends
 source chatfriends/bin/activate
 pip install -r requirements.txt
+pip uninstall torch torchvision torchaudio -y
+pip install torch torchvision torchaudio
 curl ifconfig.me
 
 
