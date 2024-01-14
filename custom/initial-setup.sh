@@ -14,6 +14,8 @@ source chatfriends/bin/activate
 pip install -r requirements.txt
 pip uninstall torch torchvision torchaudio -y
 pip install torch torchvision torchaudio
+pip install sqlalchemy
+pip install pymysql
 curl ifconfig.me
 
 
