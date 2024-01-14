@@ -1,5 +1,6 @@
 apt-get update -y
 apt-get install libgoogle-perftools-dev -y
+apt-get install nano -y
 
 chmod +x ./startup-server.sh
 
