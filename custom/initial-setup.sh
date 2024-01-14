@@ -11,12 +11,14 @@ cd /workspace/stable-diffusion-webui/models/hypernetworks && curl -L -o main.pt 
 cd /workspace/
 python3 -m venv chatfriends
 source chatfriends/bin/activate
+cd /workspace/stable-diffusion-webui
 pip install -r requirements.txt
 pip uninstall torch torchvision torchaudio -y
 pip install torch torchvision torchaudio
 pip install sqlalchemy
 pip install pymysql
 curl ifconfig.me
+cd /workspace/
 
 
 # cp /workspace/stable-diffusion-webui/custom/stable-diffusion.service /etc/systemd/system/
